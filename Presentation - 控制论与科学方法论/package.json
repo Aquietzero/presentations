@@ -1,0 +1,23 @@
+{
+  "name": "transformer-presentation",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.42.5",
+    "@slidev/theme-seriph": "^0.21.3",
+    "@typescript/ata": "^0.9.4",
+    "file-saver": "^2.0.5",
+    "lz-string": "^1.5.0",
+    "prettier": "^3.2.4",
+    "recordrtc": "^5.6.2",
+    "typescript": "^5.3.3",
+    "yaml": "^2.3.4"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.51.0"
+  }
+}
